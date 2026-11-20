@@ -93,6 +93,6 @@ func main() {
 		finalResults = append(finalResults, res)
 	}
 
-	fmt.Printf("\n%d Все jobs выполнены\n", len(finalResults))
+	fmt.Printf("\n%d jobs выполнены\n", len(finalResults))
 	fmt.Printf("Среднее время: %v\n", total/time.Duration(len(finalResults)))
 }

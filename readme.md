@@ -72,11 +72,11 @@ go run -race main.go
 ## Пример вывода
 
 ```
-Start processing job 3
+Начало выполнения job с id: 9
 ...
-Finished processing job 3
-ID: 3          | URL: https://wiki.org        | time: 248.168125ms
+Завершена обработка job с id: 9
+ID: 9          | URL: https://profi.ru          | Время: 628.138833ms
 ...
-8 jobs has been completed
-Average time: 339.042229ms
+10 jobs выполнены
+Среднее время: 480.486879ms
 ```
